@@ -12,7 +12,7 @@
 @class SalonBookTableViewCell;
 @protocol SalonBookTableViewCellDelegate <NSObject>
 @optional
--(void)didTapBook:(SalonBookTableViewCell *)cell;
+-(void)didTapBook:(SalonBookTableViewCell *)cell withCategory:(SalonCategory*)category;
 @end
 
 @interface SalonBookTableViewCell : UITableViewCell

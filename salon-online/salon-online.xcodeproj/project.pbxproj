@@ -22,8 +22,11 @@
 		9F90FA9B206E5CF000B30ADC /* SalonService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90FA9A206E5CF000B30ADC /* SalonService.m */; };
 		9F90FA9E206E5D2500B30ADC /* SalonCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90FA9D206E5D2500B30ADC /* SalonCategory.m */; };
 		9F90FAA1206E658400B30ADC /* SalonSectionHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90FAA0206E658400B30ADC /* SalonSectionHeaderTableViewCell.m */; };
-		9FB5987020A99ECB00081132 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5986F20A99ECB00081132 /* BookViewController.m */; };
+		9FB5987020A99ECB00081132 /* BookTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5986F20A99ECB00081132 /* BookTableViewController.m */; };
 		9FB5987620A99FC800081132 /* SalonBookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5987520A99FC800081132 /* SalonBookTableViewCell.m */; };
+		9FD3A78A20D3992D00478AD2 /* CalendarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD3A78920D3992D00478AD2 /* CalendarTableViewCell.m */; };
+		9FD3A78D20D3A80400478AD2 /* ServiceScheduleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD3A78C20D3A80400478AD2 /* ServiceScheduleTableViewCell.m */; };
+		9FD3A79020D3BFDF00478AD2 /* ButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD3A78F20D3BFDF00478AD2 /* ButtonTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,10 +59,16 @@
 		9F90FA9D206E5D2500B30ADC /* SalonCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalonCategory.m; sourceTree = "<group>"; };
 		9F90FA9F206E658400B30ADC /* SalonSectionHeaderTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SalonSectionHeaderTableViewCell.h; sourceTree = "<group>"; };
 		9F90FAA0206E658400B30ADC /* SalonSectionHeaderTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalonSectionHeaderTableViewCell.m; sourceTree = "<group>"; };
-		9FB5986E20A99ECB00081132 /* BookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
-		9FB5986F20A99ECB00081132 /* BookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		9FB5986E20A99ECB00081132 /* BookTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookTableViewController.h; sourceTree = "<group>"; };
+		9FB5986F20A99ECB00081132 /* BookTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookTableViewController.m; sourceTree = "<group>"; };
 		9FB5987420A99FC800081132 /* SalonBookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalonBookTableViewCell.h; sourceTree = "<group>"; };
 		9FB5987520A99FC800081132 /* SalonBookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalonBookTableViewCell.m; sourceTree = "<group>"; };
+		9FD3A78820D3992D00478AD2 /* CalendarTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarTableViewCell.h; sourceTree = "<group>"; };
+		9FD3A78920D3992D00478AD2 /* CalendarTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarTableViewCell.m; sourceTree = "<group>"; };
+		9FD3A78B20D3A80400478AD2 /* ServiceScheduleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceScheduleTableViewCell.h; sourceTree = "<group>"; };
+		9FD3A78C20D3A80400478AD2 /* ServiceScheduleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceScheduleTableViewCell.m; sourceTree = "<group>"; };
+		9FD3A78E20D3BFDF00478AD2 /* ButtonTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonTableViewCell.h; sourceTree = "<group>"; };
+		9FD3A78F20D3BFDF00478AD2 /* ButtonTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,7 +183,7 @@
 				9FB5986320A9948F00081132 /* Services */,
 				9FB5986220A9947A00081132 /* Salon */,
 				9F90FA95206E3E4F00B30ADC /* View */,
-				9F90FA8E206D083100B30ADC /* Cell */,
+				9F90FA8E206D083100B30ADC /* Cells */,
 			);
 			path = Salons;
 			sourceTree = "<group>";
@@ -192,7 +201,7 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		9F90FA8E206D083100B30ADC /* Cell */ = {
+		9F90FA8E206D083100B30ADC /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				9FB5987420A99FC800081132 /* SalonBookTableViewCell.h */,
@@ -201,8 +210,14 @@
 				9F90FA90206D084900B30ADC /* SalonTableViewCell.m */,
 				9F90FA9F206E658400B30ADC /* SalonSectionHeaderTableViewCell.h */,
 				9F90FAA0206E658400B30ADC /* SalonSectionHeaderTableViewCell.m */,
+				9FD3A78820D3992D00478AD2 /* CalendarTableViewCell.h */,
+				9FD3A78920D3992D00478AD2 /* CalendarTableViewCell.m */,
+				9FD3A78B20D3A80400478AD2 /* ServiceScheduleTableViewCell.h */,
+				9FD3A78C20D3A80400478AD2 /* ServiceScheduleTableViewCell.m */,
+				9FD3A78E20D3BFDF00478AD2 /* ButtonTableViewCell.h */,
+				9FD3A78F20D3BFDF00478AD2 /* ButtonTableViewCell.m */,
 			);
-			path = Cell;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		9F90FA95206E3E4F00B30ADC /* View */ = {
@@ -235,8 +250,8 @@
 		9FB5986420A994A900081132 /* Book */ = {
 			isa = PBXGroup;
 			children = (
-				9FB5986E20A99ECB00081132 /* BookViewController.h */,
-				9FB5986F20A99ECB00081132 /* BookViewController.m */,
+				9FB5986E20A99ECB00081132 /* BookTableViewController.h */,
+				9FB5986F20A99ECB00081132 /* BookTableViewController.m */,
 			);
 			path = Book;
 			sourceTree = "<group>";
@@ -270,7 +285,7 @@
 		9F4A7B66206CDA0600FF997D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = excodia;
 				TargetAttributes = {
 					9F4A7B6D206CDA0600FF997D = {
@@ -369,16 +384,19 @@
 				9F90FA9B206E5CF000B30ADC /* SalonService.m in Sources */,
 				9F90FA9E206E5D2500B30ADC /* SalonCategory.m in Sources */,
 				9FB5987620A99FC800081132 /* SalonBookTableViewCell.m in Sources */,
+				9FD3A78D20D3A80400478AD2 /* ServiceScheduleTableViewCell.m in Sources */,
 				9F4A7B76206CDA0600FF997D /* RootViewController.m in Sources */,
 				9F90FA94206E3DF200B30ADC /* SalonServicesTableViewController.m in Sources */,
 				9F90FA89206CFDF200B30ADC /* SalonsTableViewController.m in Sources */,
 				9F90FA8D206CFF4200B30ADC /* Salon.m in Sources */,
 				9F4A7B81206CDA0600FF997D /* main.m in Sources */,
 				9F90FAA1206E658400B30ADC /* SalonSectionHeaderTableViewCell.m in Sources */,
+				9FD3A78A20D3992D00478AD2 /* CalendarTableViewCell.m in Sources */,
 				9F90FA98206E3E6900B30ADC /* SalonHeaderView.m in Sources */,
-				9FB5987020A99ECB00081132 /* BookViewController.m in Sources */,
+				9FB5987020A99ECB00081132 /* BookTableViewController.m in Sources */,
 				9F4A7B73206CDA0600FF997D /* AppDelegate.m in Sources */,
 				9F90FA91206D084900B30ADC /* SalonTableViewCell.m in Sources */,
+				9FD3A79020D3BFDF00478AD2 /* ButtonTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +436,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -425,6 +444,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -473,6 +493,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -480,6 +501,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

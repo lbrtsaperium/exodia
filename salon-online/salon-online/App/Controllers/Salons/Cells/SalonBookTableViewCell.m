@@ -22,8 +22,8 @@
 }
 
 - (IBAction)bookNow:(id)sender {
-    if([self.delegate respondsToSelector:@selector(didTapBook:)]) {
-        [self.delegate didTapBook:self];
+    if([self.delegate respondsToSelector:@selector(didTapBook:withCategory:)]) {
+        [self.delegate didTapBook:self withCategory:self.category];
     }
 }
 @end

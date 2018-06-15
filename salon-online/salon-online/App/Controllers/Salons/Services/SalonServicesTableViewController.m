@@ -11,9 +11,11 @@
 #import "SalonTableViewCell.h"
 #import "SalonSectionHeaderTableViewCell.h"
 #import "SalonBookTableViewCell.h"
-
+#import "BookTableViewController.h"
 
 @interface SalonServicesTableViewController () <UIGestureRecognizerDelegate, SalonBookTableViewCellDelegate>
+
+@property (nonnull, strong) SalonCategory *selectedCategory;
 
 @end
 
@@ -99,7 +101,7 @@
     if(section == 0) {
         return CGFLOAT_MIN;
     }
-    return 50.0f;
+    return 30.0f;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
@@ -153,6 +155,8 @@
         cell.cost.text = [NSString stringWithFormat:@"%ld SEK", (long)category.Cost.integerValue];
         cell.desc.text = category.Desc;
         cell.delegate = self;
+        cell.category = category;
+        cell.tag = indexPath.row;
 
         if(indexPath.row == (service.Categories.count - 1)) {
             cell.bottomDivider.hidden = YES;
@@ -202,12 +206,14 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-//    SalonServicesTableViewController* c = (SalonServicesTableViewController*)[segue destinationViewController];
-//    c.salon = [self.salons objectAtIndex:self.selectedPath.row];
+    BookTableViewController* c = (BookTableViewController*)[segue destinationViewController];
+    c.category = self.selectedCategory;
+    c.salon = self.salon;
 }
 
 #pragma mark - SalonBookTableViewCellDelegate
--(void)didTapBook:(SalonBookTableViewCell *)cell {
+-(void)didTapBook:(SalonBookTableViewCell *)cell withCategory:(SalonCategory*)category {
+    self.selectedCategory = category;
     [self performSegueWithIdentifier:@"bookSchedule" sender:self];
 }
 
