@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E1F680E0172E5FEBEEC3D1 /* libPods-salon-online.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 926B3460A61F5C472E4E0440 /* libPods-salon-online.a */; };
+		9F4A7B73206CDA0600FF997D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A7B72206CDA0600FF997D /* AppDelegate.m */; };
+		9F4A7B76206CDA0600FF997D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A7B75206CDA0600FF997D /* RootViewController.m */; };
+		9F4A7B79206CDA0600FF997D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4A7B77206CDA0600FF997D /* Main.storyboard */; };
+		9F4A7B7B206CDA0600FF997D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4A7B7A206CDA0600FF997D /* Assets.xcassets */; };
+		9F4A7B7E206CDA0600FF997D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4A7B7C206CDA0600FF997D /* LaunchScreen.storyboard */; };
+		9F4A7B81206CDA0600FF997D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A7B80206CDA0600FF997D /* main.m */; };
+		9F90FA89206CFDF200B30ADC /* SalonsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90FA88206CFDF200B30ADC /* SalonsTableViewController.m */; };
+		9F90FA8D206CFF4200B30ADC /* Salon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90FA8C206CFF4200B30ADC /* Salon.m */; };
+		9F90FA91206D084900B30ADC /* SalonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90FA90206D084900B30ADC /* SalonTableViewCell.m */; };
+		9F90FA94206E3DF200B30ADC /* SalonServicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90FA93206E3DF200B30ADC /* SalonServicesTableViewController.m */; };
+		9F90FA98206E3E6900B30ADC /* SalonHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90FA97206E3E6900B30ADC /* SalonHeaderView.m */; };
+		9F90FA9B206E5CF000B30ADC /* SalonService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90FA9A206E5CF000B30ADC /* SalonService.m */; };
+		9F90FA9E206E5D2500B30ADC /* SalonCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90FA9D206E5D2500B30ADC /* SalonCategory.m */; };
+		9F90FAA1206E658400B30ADC /* SalonSectionHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90FAA0206E658400B30ADC /* SalonSectionHeaderTableViewCell.m */; };
+		9FB5987020A99ECB00081132 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5986F20A99ECB00081132 /* BookViewController.m */; };
+		9FB5987620A99FC800081132 /* SalonBookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5987520A99FC800081132 /* SalonBookTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67D53D58D68E016C935B1F20 /* Pods-salon-online.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-salon-online.debug.xcconfig"; path = "Pods/Target Support Files/Pods-salon-online/Pods-salon-online.debug.xcconfig"; sourceTree = "<group>"; };
+		68038EF274A1CA6CF65A8669 /* Pods-salon-online.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-salon-online.release.xcconfig"; path = "Pods/Target Support Files/Pods-salon-online/Pods-salon-online.release.xcconfig"; sourceTree = "<group>"; };
+		926B3460A61F5C472E4E0440 /* libPods-salon-online.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-salon-online.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4A7B6E206CDA0600FF997D /* salon-online.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "salon-online.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4A7B71206CDA0600FF997D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F4A7B72206CDA0600FF997D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F4A7B74206CDA0600FF997D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9F4A7B75206CDA0600FF997D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9F4A7B78206CDA0600FF997D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F4A7B7A206CDA0600FF997D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F4A7B7D206CDA0600FF997D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F4A7B7F206CDA0600FF997D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4A7B80206CDA0600FF997D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F90FA87206CFDF200B30ADC /* SalonsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SalonsTableViewController.h; sourceTree = "<group>"; };
+		9F90FA88206CFDF200B30ADC /* SalonsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalonsTableViewController.m; sourceTree = "<group>"; };
+		9F90FA8B206CFF4200B30ADC /* Salon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Salon.h; sourceTree = "<group>"; };
+		9F90FA8C206CFF4200B30ADC /* Salon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Salon.m; sourceTree = "<group>"; };
+		9F90FA8F206D084900B30ADC /* SalonTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SalonTableViewCell.h; sourceTree = "<group>"; };
+		9F90FA90206D084900B30ADC /* SalonTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalonTableViewCell.m; sourceTree = "<group>"; };
+		9F90FA92206E3DF200B30ADC /* SalonServicesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SalonServicesTableViewController.h; sourceTree = "<group>"; };
+		9F90FA93206E3DF200B30ADC /* SalonServicesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalonServicesTableViewController.m; sourceTree = "<group>"; };
+		9F90FA96206E3E6900B30ADC /* SalonHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SalonHeaderView.h; sourceTree = "<group>"; };
+		9F90FA97206E3E6900B30ADC /* SalonHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalonHeaderView.m; sourceTree = "<group>"; };
+		9F90FA99206E5CF000B30ADC /* SalonService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SalonService.h; sourceTree = "<group>"; };
+		9F90FA9A206E5CF000B30ADC /* SalonService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalonService.m; sourceTree = "<group>"; };
+		9F90FA9C206E5D2500B30ADC /* SalonCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SalonCategory.h; sourceTree = "<group>"; };
+		9F90FA9D206E5D2500B30ADC /* SalonCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalonCategory.m; sourceTree = "<group>"; };
+		9F90FA9F206E658400B30ADC /* SalonSectionHeaderTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SalonSectionHeaderTableViewCell.h; sourceTree = "<group>"; };
+		9F90FAA0206E658400B30ADC /* SalonSectionHeaderTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalonSectionHeaderTableViewCell.m; sourceTree = "<group>"; };
+		9FB5986E20A99ECB00081132 /* BookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		9FB5986F20A99ECB00081132 /* BookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		9FB5987420A99FC800081132 /* SalonBookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalonBookTableViewCell.h; sourceTree = "<group>"; };
+		9FB5987520A99FC800081132 /* SalonBookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalonBookTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F4A7B6B206CDA0600FF997D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E1F680E0172E5FEBEEC3D1 /* libPods-salon-online.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17619CBA3ED9CDF2E96A3CF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67D53D58D68E016C935B1F20 /* Pods-salon-online.debug.xcconfig */,
+				68038EF274A1CA6CF65A8669 /* Pods-salon-online.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C4D7821396D9CF5FDCB25BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				926B3460A61F5C472E4E0440 /* libPods-salon-online.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F4A7B65206CDA0600FF997D = {
+			isa = PBXGroup;
+			children = (
+				9F4A7B70206CDA0600FF997D /* salon-online */,
+				9F4A7B6F206CDA0600FF997D /* Products */,
+				17619CBA3ED9CDF2E96A3CF2 /* Pods */,
+				5C4D7821396D9CF5FDCB25BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F4A7B6F206CDA0600FF997D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A7B6E206CDA0600FF997D /* salon-online.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F4A7B70206CDA0600FF997D /* salon-online */ = {
+			isa = PBXGroup;
+			children = (
+				9F90FA82206CF6C900B30ADC /* App */,
+				9F90FA81206CF6BB00B30ADC /* Storyboard */,
+			);
+			path = "salon-online";
+			sourceTree = "<group>";
+		};
+		9F90FA81206CF6BB00B30ADC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A7B77206CDA0600FF997D /* Main.storyboard */,
+				9F4A7B7C206CDA0600FF997D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		9F90FA82206CF6C900B30ADC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9F90FA8A206CFF2700B30ADC /* Models */,
+				9F90FA84206CF6F100B30ADC /* Assets */,
+				9F90FA83206CF6E300B30ADC /* Controllers */,
+				9F4A7B71206CDA0600FF997D /* AppDelegate.h */,
+				9F4A7B72206CDA0600FF997D /* AppDelegate.m */,
+				9F4A7B7F206CDA0600FF997D /* Info.plist */,
+				9F4A7B80206CDA0600FF997D /* main.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9F90FA83206CF6E300B30ADC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F90FA86206CFDC100B30ADC /* Salons */,
+				9F90FA85206CFDB900B30ADC /* Root */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9F90FA84206CF6F100B30ADC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A7B7A206CDA0600FF997D /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9F90FA85206CFDB900B30ADC /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A7B74206CDA0600FF997D /* RootViewController.h */,
+				9F4A7B75206CDA0600FF997D /* RootViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		9F90FA86206CFDC100B30ADC /* Salons */ = {
+			isa = PBXGroup;
+			children = (
+				9FB5986420A994A900081132 /* Book */,
+				9FB5986320A9948F00081132 /* Services */,
+				9FB5986220A9947A00081132 /* Salon */,
+				9F90FA95206E3E4F00B30ADC /* View */,
+				9F90FA8E206D083100B30ADC /* Cell */,
+			);
+			path = Salons;
+			sourceTree = "<group>";
+		};
+		9F90FA8A206CFF2700B30ADC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F90FA8B206CFF4200B30ADC /* Salon.h */,
+				9F90FA8C206CFF4200B30ADC /* Salon.m */,
+				9F90FA99206E5CF000B30ADC /* SalonService.h */,
+				9F90FA9A206E5CF000B30ADC /* SalonService.m */,
+				9F90FA9C206E5D2500B30ADC /* SalonCategory.h */,
+				9F90FA9D206E5D2500B30ADC /* SalonCategory.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F90FA8E206D083100B30ADC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9FB5987420A99FC800081132 /* SalonBookTableViewCell.h */,
+				9FB5987520A99FC800081132 /* SalonBookTableViewCell.m */,
+				9F90FA8F206D084900B30ADC /* SalonTableViewCell.h */,
+				9F90FA90206D084900B30ADC /* SalonTableViewCell.m */,
+				9F90FA9F206E658400B30ADC /* SalonSectionHeaderTableViewCell.h */,
+				9F90FAA0206E658400B30ADC /* SalonSectionHeaderTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9F90FA95206E3E4F00B30ADC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F90FA96206E3E6900B30ADC /* SalonHeaderView.h */,
+				9F90FA97206E3E6900B30ADC /* SalonHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FB5986220A9947A00081132 /* Salon */ = {
+			isa = PBXGroup;
+			children = (
+				9F90FA87206CFDF200B30ADC /* SalonsTableViewController.h */,
+				9F90FA88206CFDF200B30ADC /* SalonsTableViewController.m */,
+			);
+			path = Salon;
+			sourceTree = "<group>";
+		};
+		9FB5986320A9948F00081132 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9F90FA92206E3DF200B30ADC /* SalonServicesTableViewController.h */,
+				9F90FA93206E3DF200B30ADC /* SalonServicesTableViewController.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9FB5986420A994A900081132 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				9FB5986E20A99ECB00081132 /* BookViewController.h */,
+				9FB5986F20A99ECB00081132 /* BookViewController.m */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F4A7B6D206CDA0600FF997D /* salon-online */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4A7B84206CDA0600FF997D /* Build configuration list for PBXNativeTarget "salon-online" */;
+			buildPhases = (
+				65B026C965792B239653E21B /* [CP] Check Pods Manifest.lock */,
+				9F4A7B6A206CDA0600FF997D /* Sources */,
+				9F4A7B6B206CDA0600FF997D /* Frameworks */,
+				9F4A7B6C206CDA0600FF997D /* Resources */,
+				4076D6BB17FB4003CD75A250 /* [CP] Embed Pods Frameworks */,
+				6A3668A11355252C5CAB1E4F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "salon-online";
+			productName = "salon-online";
+			productReference = 9F4A7B6E206CDA0600FF997D /* salon-online.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F4A7B66206CDA0600FF997D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = excodia;
+				TargetAttributes = {
+					9F4A7B6D206CDA0600FF997D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9F4A7B69206CDA0600FF997D /* Build configuration list for PBXProject "salon-online" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F4A7B65206CDA0600FF997D;
+			productRefGroup = 9F4A7B6F206CDA0600FF997D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F4A7B6D206CDA0600FF997D /* salon-online */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F4A7B6C206CDA0600FF997D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4A7B7E206CDA0600FF997D /* LaunchScreen.storyboard in Resources */,
+				9F4A7B7B206CDA0600FF997D /* Assets.xcassets in Resources */,
+				9F4A7B79206CDA0600FF997D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4076D6BB17FB4003CD75A250 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-salon-online/Pods-salon-online-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65B026C965792B239653E21B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-salon-online-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A3668A11355252C5CAB1E4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-salon-online/Pods-salon-online-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F4A7B6A206CDA0600FF997D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F90FA9B206E5CF000B30ADC /* SalonService.m in Sources */,
+				9F90FA9E206E5D2500B30ADC /* SalonCategory.m in Sources */,
+				9FB5987620A99FC800081132 /* SalonBookTableViewCell.m in Sources */,
+				9F4A7B76206CDA0600FF997D /* RootViewController.m in Sources */,
+				9F90FA94206E3DF200B30ADC /* SalonServicesTableViewController.m in Sources */,
+				9F90FA89206CFDF200B30ADC /* SalonsTableViewController.m in Sources */,
+				9F90FA8D206CFF4200B30ADC /* Salon.m in Sources */,
+				9F4A7B81206CDA0600FF997D /* main.m in Sources */,
+				9F90FAA1206E658400B30ADC /* SalonSectionHeaderTableViewCell.m in Sources */,
+				9F90FA98206E3E6900B30ADC /* SalonHeaderView.m in Sources */,
+				9FB5987020A99ECB00081132 /* BookViewController.m in Sources */,
+				9F4A7B73206CDA0600FF997D /* AppDelegate.m in Sources */,
+				9F90FA91206D084900B30ADC /* SalonTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F4A7B77206CDA0600FF997D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F4A7B78206CDA0600FF997D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F4A7B7C206CDA0600FF997D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F4A7B7D206CDA0600FF997D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F4A7B82206CDA0600FF997D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F4A7B83206CDA0600FF997D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F4A7B85206CDA0600FF997D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D53D58D68E016C935B1F20 /* Pods-salon-online.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "salon-online/App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exodia.salon-online";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F4A7B86206CDA0600FF997D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68038EF274A1CA6CF65A8669 /* Pods-salon-online.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "salon-online/App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exodia.salon-online";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F4A7B69206CDA0600FF997D /* Build configuration list for PBXProject "salon-online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4A7B82206CDA0600FF997D /* Debug */,
+				9F4A7B83206CDA0600FF997D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F4A7B84206CDA0600FF997D /* Build configuration list for PBXNativeTarget "salon-online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4A7B85206CDA0600FF997D /* Debug */,
+				9F4A7B86206CDA0600FF997D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F4A7B66206CDA0600FF997D /* Project object */;
+}
